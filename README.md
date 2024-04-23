@@ -17,20 +17,18 @@ This repository is structured as follows:
 ├── .ipynb_checkpoints
 ├── README
 ├── data
-├── src
-├── blog.ipynb
-└── results
+└── src
 
 
-All data is contained in the data sub-directory, all source code is contained in src, and all output of graphs and tables is contained in results.
+All data is contained in the data sub-directory, all source code is contained in src.
 
 
 ## Running instructions
 
 In order to replicate all results, the following steps should be followed.
 (1) Download all data contained in data sub-directory to your own environment.
-(2) Run all source codes contained in src sub-directory using python3.
-(3) Run blog.ipynb using python3.
+(2) Run all source codes contained in src sub-directory except blog.ipynb using python3.
+(3) Run blog.ipynb in src sub=directory using python3 after confirming that graphs and tables in .png format have been saved in src sub-directory.
 
 This has been tested using Python 3.12.3 for windows. Within python, a number
 of additional libraries are required.  These are indicated below, along with
